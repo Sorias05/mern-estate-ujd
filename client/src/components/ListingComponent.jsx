@@ -5,7 +5,7 @@ import { FaBath, FaBed } from "react-icons/fa";
 
 export default function ListingComponent({ listing }) {
   return (
-    <div className="bg-white shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]">
+    <div className="bg-white shadow-md hover:shadow-xl transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]">
       <Link to={`/listing/${listing._id}`}>
         <img
           src={listing.imageUrls[0] || "https://thumbs.dreamstime.com/b/modern-house-vector-illustrations-cartoon-flat-home-apartment-facade-exterior-residential-building-set-icons-isolated-modern-180988199.jpg"}
