@@ -99,7 +99,7 @@ export default function Home() {
               </h2>
               <Link
                 to={"/search?offer=true"}
-                className="text-sm text-blue-800 hover:underline"
+                className="text-md text-blue-800 hover:underline"
               >
                 Show more offers...
               </Link>
@@ -119,7 +119,7 @@ export default function Home() {
               </h2>
               <Link
                 to={"/search?type=rent"}
-                className="text-sm text-blue-800 hover:underline"
+                className="text-md text-blue-800 hover:underline"
               >
                 Show more places for rent...
               </Link>
@@ -139,7 +139,7 @@ export default function Home() {
               </h2>
               <Link
                 to={"/search?type=sale"}
-                className="text-sm text-blue-800 hover:underline"
+                className="text-md text-blue-800 hover:underline"
               >
                 Show more places for sale...
               </Link>
